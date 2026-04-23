@@ -31,5 +31,7 @@ class Person:
 p1 = Person("Alice", 30)
 p2 = Person("Bob", 25)
 
-print(p1)
-print(p2.greet())
+print(p1)         #Person(name='Alice', age=30)
+print(p2.greet())  #Hello, my name is Bob and I am 25 years old.
+print(p2.name, p2.age)   #Bob 25
+
